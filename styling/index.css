@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.header_logo {
+  position: fixed;
+  margin: 1%; /* Add margin for spacing */
+  width: 128px;
+  height: 128px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  flex-wrap: wrap;
+  ;
+}
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200vh;
+  text-align: center;
+  background-image: url(../images/backgroundPic.png);
+  background-size: cover;
+  flex-wrap: wrap;
+  margin-top: -275px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav a:hover {
+  color: rgb(100, 100, 242);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.opacity-layer {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.8); /* Adjust the alpha value here */
+}
+
+.menu {
+  max-width: 1500px;
+  height: 50px;
+  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+  
+}
+.menu-items {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+.equipment{
+  width: 300px;
+  height: 350px;
+  border: solid 1px black;
+}
+
+.styling{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  border-color: gold;
+  border-style: solid;
+  padding: 20px 0px 10px 50px;
+  background-color: whitesmoke;
+}
+
+.equipment-description{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  width: 600px;
+  margin-top: 55px;
+  margin-left: 40px;
+}
+
+.equipment-img{
+  
+  width: fit-content;
+  margin-left: -40px;
+  
+}
+
+.intro {
+  width: 70%; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h2{
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  display: block;
+  color: rgb(70, 75, 81);
+  
+}
+
+.intro-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+  flex-direction: column;
+  margin-top: -150px;
+}
+
+.lists{
+  margin-top: -100px;
+  
+}
+
+.options{
+  color: black
+}
